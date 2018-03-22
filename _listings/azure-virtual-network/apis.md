@@ -26,7 +26,7 @@ apis:
   tags: Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
