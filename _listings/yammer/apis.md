@@ -28,7 +28,50 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-exportable-json-get.md
+- name: Yammer API Get Network Request
+  description: "Facilitates switching a user between different Yammer networks. All
+    Yammer web requests contain a network permalink in the URL (https://www.yammer.com/network_permalink/resource_path)
+    to denote the network context. API requests use a different OAuth token for each
+    user/network combination.\n\nParameters:\ninclude_suspended=TRUE - Optional. Include
+    networks the user is suspended in.\n\nexclude_own_messages_from_unseen=TRUE -
+    Optional. Exclude the user\u2019s own messages from the unseen count. This is
+    good for unread badges."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
+  humanURL: http://developer.yammer.com
+  baseURL: http:://example.com//
+  tags: Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-current-json-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-current-json-get-postman.md
 x-common:
+- type: x-website
+  url: http://developer.yammer.com
+- type: x-blog
+  url: http://blog.yammer.com
+- type: x-blog-rss
+  url: http://blog.yammer.com/blog/feed
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/yammer
+- type: x-documentation
+  url: https://developer.yammer.com/docs
+- type: x-embeddable
+  url: https://developer.yammer.com/docs/embed
+- type: x-forum
+  url: https://techcommunity.microsoft.com/t5/Yammer/ct-p/Yammer
+- type: x-github
+  url: https://github.com/yammer
+- type: x-partners
+  url: https://developer.yammer.com/v1.0/docs/yammer-partners
+- type: x-status
+  url: http://status.yammer.com/
+- type: x-support
+  url: https://developer.yammer.com/v1.0/page/support
+- type: x-terms-of-service
+  url: https://about.yammer.com/terms/
+- type: x-twitter
+  url: https://twitter.com/yammer
 - type: x-website
   url: http://developer.yammer.com
 - type: x-blog
