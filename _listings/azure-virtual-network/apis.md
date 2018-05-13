@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-checkipaddressavailability-get.md
-- name: Azure Virtual Network API Virtual Networks List All
-  description: Gets all virtual networks in a subscription.
+- name: Azure Virtual Network API Virtual Networks List
+  description: Gets all virtual networks in a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-virtualnetworks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-virtualnetworks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
