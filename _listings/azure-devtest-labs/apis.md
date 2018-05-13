@@ -26,16 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-virtualnetworks-name-patch.md
-- name: Azure DevTest Labs API Virtual Networks Create Or Update
-  description: Create or replace an existing virtual network. This operation can take
-    a while to complete.
+- name: Azure DevTest Labs API Virtual Networks Delete
+  description: Delete virtual network. This operation can take a while to complete.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-virtualnetworks-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-virtualnetworks-name-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-virtualnetworks-name-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
