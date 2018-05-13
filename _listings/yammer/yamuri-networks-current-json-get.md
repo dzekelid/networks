@@ -1,8 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Get Network Request
+  description: "Facilitates switching a user between different Yammer networks. All
+    Yammer web requests contain a network permalink in the URL (https://www.yammer.com/network_permalink/resource_path)
+    to denote the network context. API requests use a different OAuth token for each
+    user/network combination.\n\nParameters:\ninclude_suspended=TRUE - Optional. Include
+    networks the user is suspended in.\n\nexclude_own_messages_from_unseen=TRUE -
+    Optional. Exclude the user\u2019s own messages from the unseen count. This is
+    good for unread badges."
   version: 1.0.0
 host: example.com
 basePath: /
