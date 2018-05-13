@@ -28,23 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-exportable-json-get.md
-- name: Yammer API Get Network Request
-  description: "Facilitates switching a user between different Yammer networks. All
-    Yammer web requests contain a network permalink in the URL (https://www.yammer.com/network_permalink/resource_path)
-    to denote the network context. API requests use a different OAuth token for each
-    user/network combination.\n\nParameters:\ninclude_suspended=TRUE - Optional. Include
-    networks the user is suspended in.\n\nexclude_own_messages_from_unseen=TRUE -
-    Optional. Exclude the user\u2019s own messages from the unseen count. This is
-    good for unread badges."
+- name: Yammer API Get Exportable Networks
+  description: Get Exportable Networks
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-current-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-exportable-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-current-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/yammer/yamuri-networks-exportable-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
