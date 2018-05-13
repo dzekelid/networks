@@ -29,7 +29,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/arin/nets-get.md
+- name: Network API Networks
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png
+  humanURL: https://www.arin.net
+  baseURL: http:://{host}//
+  tags: Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/arin/nets-get.md
 x-common:
+- type: x-website
+  url: https://www.arin.net
+- type: x-developer
+  url: https://www.arin.net/resources/restful-interfaces.html
+- type: x-github
+  url: https://github.com/arineng
+- type: x-twitter
+  url: https://twitter.com/TeamARIN
 - type: x-website
   url: https://www.arin.net
 - type: x-developer
