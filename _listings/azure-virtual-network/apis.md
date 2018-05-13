@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-checkipaddressavailability-get.md
-- name: Azure Virtual Network API Virtual Networks Delete
-  description: Deletes the specified virtual network.
+- name: Azure Virtual Network API Virtual Networks Get
+  description: Gets the specified virtual network by resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworks-virtualnetworkname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
