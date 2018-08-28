@@ -9,37 +9,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.
 x-kinRank: "8"
 x-alexaRank: "51791"
 tags: Networks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/arin/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Network API Networks
-  x-api-slug: network-api
+- name: Network API - Networks
+  x-api-slug: nets-get
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.jpg
   humanURL: https://www.arin.net
-  baseURL: ://///nets
-  tags: Networks
+  baseURL: :///
+  tags: DNS, Registry, Infrastructure, DNS Internet, Stack Network, ISP, internet,
+    API Provider, Profiles, General Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/arin/nets-get-openapi.md
-- name: Network API
-  x-api-slug: network-api
-  description: 'The American Registry for Internet Numbers (ARIN) is a Regional Internet
-    Registry (RIR) incorporated in the Commonwealth of Virginia, USA. ARIN is one
-    of five (5) RIRs. Like the other RIRs, ARIN:    Provides services related to the
-    technical coordinati...'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.jpg
-  humanURL: https://www.arin.net
-  baseURL: :///
-  tags: Networks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/networks/master/_listings/arin/openapi.md
 x-common:
 - type: x-website
   url: https://www.arin.net
+- type: x-api-gallery
+  url: http://appveyor.ci.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://arin.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/american-registry-for-internet-numbers
 - type: x-developer
